@@ -31,3 +31,11 @@
 - Approach: Array Traversal
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 5.Concatenation of Array
+
+- Difficult: Easy
+- Language: Java
+- Approach: Array Traversal
+- Time Complexity: O(n)
+- Space Complexity: O(n)
