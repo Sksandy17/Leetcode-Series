@@ -39,3 +39,11 @@
 - Approach: Array Traversal
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 6.Plus One
+
+- Difficult: Easy
+- Language: Java
+- Approach: Array Traversal + carry
+- Time Complexity: O(n)
+- Space Complexity: O(n)
