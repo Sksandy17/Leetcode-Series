@@ -47,3 +47,11 @@
 - Approach: Array Traversal + carry
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 7.Running Sum of 1D Array
+
+- Difficult: Easy
+- Language: Java
+- Approach: Traverse the array and add each element to the previous sum
+- Time Complexity: O(n)
+- Space Scomplexity: O(1)
