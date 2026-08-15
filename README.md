@@ -4,7 +4,7 @@
 
 - Difficulty: Easy
 - Language: Java
-- Approach: Brute Force
+- Approach: Compare every pair of elements and return the pair whose sum equals the target.
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
 
@@ -12,7 +12,7 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Reverse the number and compare it with the original number
+- Approach: Reverse the number and compare it with the original number.
 - Time Complexity: O(log n)
 - Space Complexity: O(1)
 
@@ -20,7 +20,7 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Iterative approach using give two variables to generate the next fibonacci number
+- Approach: Iterative approach using give two variables to generate the next fibonacci number.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
 
@@ -28,7 +28,7 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Array Traversal
+- Approach: Traverse the array and use each value as an index to build the result array.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 
@@ -36,7 +36,7 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Array Traversal
+- Approach: Traverse the array and append the original array twice to form the concatenated array.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 
@@ -44,7 +44,7 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Array Traversal + carry
+- Approach: Traverse from right to left, add one with carry, and update each digit accordingly.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 
@@ -52,6 +52,14 @@
 
 - Difficult: Easy
 - Language: Java
-- Approach: Traverse the array and add each element to the previous sum
+- Approach: Traverse the array and add each element to the previous sum.
 - Time Complexity: O(n)
-- Space Scomplexity: O(1)
+- Space Complexity: O(1)
+
+### 8.Remove Element
+
+- Difficult: Easy
+- Language: Java
+- Approach: Traverse the array and keep only elements that are not equal to value.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
