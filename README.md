@@ -63,3 +63,11 @@
 - Approach: Traverse the array and keep only elements that are not equal to value.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 9.Best Time to Buy and Sell Stock
+
+- Difficult: Easy
+- Language: Java
+- Approach: Track the minimum buying price and calculate the maximum profit while traversing the array.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
