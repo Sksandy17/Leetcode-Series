@@ -77,5 +77,5 @@
 - Difficult: Easy
 - Language: Java
 - Approach: Traverse the sorted array and return the first index where nums[i] >= target; otherwise return nums.length.
-- Time Complexity: O(n)
+- Time Complexity: O(log n)
 - Space Complexity: O(1)
