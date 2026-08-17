@@ -71,3 +71,11 @@
 - Approach: Track the minimum buying price and calculate the maximum profit while traversing the array.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 10.Search Insert Position
+
+- Difficult: Easy
+- Language: Java
+- Approach: Traverse the sorted array and return the first index where nums[i] >= target; otherwise return nums.length.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
