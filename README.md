@@ -87,3 +87,11 @@
 - Approach: Traverse each customer's account row, calculate the total wealth, and keep track of the maximum wealth.
 - Time Complexity: O(m x n)
 - Space Complexity: O(1)
+
+### 12.Suffle the Array
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Traverse the first half and second half simultaneously, adding one element from each alternately to the result array.
+- Time Complexity: O(n)
+- Space Complexity: O(n)
