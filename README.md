@@ -95,3 +95,11 @@
 - Approach: Traverse the first half and second half simultaneously, adding one element from each alternately to the result array.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 13.Kids With the Greatest Number of Candies
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Find the maximum candies, then check whether each kid's candies + extraCandies is greater than or equal to the maximum.
+- Time Complexity: O(n)
+- Space Complexity: O(n)
