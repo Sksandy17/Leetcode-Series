@@ -85,7 +85,7 @@
 - Difficulty level: Easy
 - Language: Java
 - Approach: Traverse each customer's account row, calculate the total wealth, and keep track of the maximum wealth.
-- Time Complexity: O(m x n)
+- Time Complexity: O(n x m)
 - Space Complexity: O(1)
 
 ### 12.Suffle the Array
@@ -103,3 +103,11 @@
 - Approach: Find the maximum candies, then check whether each kid's candies + extraCandies is greater than or equal to the maximum.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 14.Find Numbers with Even Number of Digits
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Count the digits of each number using a loop and increment the result when the digit count is even.
+- Time Complexity: O(n x d)
+- Space Complexity: O(1)
