@@ -112,7 +112,7 @@
 - Time Complexity: O(n x d)
 - Space Complexity: O(1)
 
-### 15.Contains Duplicates
+### 15.Contains Duplicate
 
 - Difficulty Level: Easy
 - Language: Java
