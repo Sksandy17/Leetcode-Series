@@ -111,3 +111,11 @@
 - Approach: Count the digits of each number using a loop and increment the result when the digit count is even.
 - Time Complexity: O(n x d)
 - Space Complexity: O(1)
+
+### 15.Contains Duplicates
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Sort the array and compare adjacent elements; if any two adjacent elements are equal, a duplicate exists.
+- Time Complexity: O(n log n)
+- Space Complexity: O(log n)
