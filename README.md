@@ -119,3 +119,11 @@
 - Approach: Sort the array and compare adjacent elements; if any two adjacent elements are equal, a duplicate exists.
 - Time Complexity: O(n log n)
 - Space Complexity: O(log n)
+
+### 16.Missing Number
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Calculate the expected sum from 0 to n and subtract the actual array sum to find the missing number.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
