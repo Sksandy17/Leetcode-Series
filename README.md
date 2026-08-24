@@ -127,3 +127,11 @@
 - Approach: Calculate the expected sum from 0 to n and subtract the actual array sum to find the missing number.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 17.Single Number
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Use nested loops to count the frequency of each element and return the element that appears only once.
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
