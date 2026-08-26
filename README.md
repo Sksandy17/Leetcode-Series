@@ -135,3 +135,19 @@
 - Approach: Use nested loops to count the frequency of each element and return the element that appears only once.
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
+
+### 18.Single Number II
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Use nested for loops to count how many times each element appears. If the count is 1, return that element.
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
+
+### 19.Single Number III
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Traverse the array, count each element’s occurrence, and find the two numbers that occur only once.
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
