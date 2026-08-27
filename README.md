@@ -151,3 +151,11 @@
 - Approach: Traverse the array, count each element’s occurrence, and find the two numbers that occur only once.
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
+
+### 20.Intersection of Two Arrays
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Compare each element of nums1 with nums2 and add it to the result only if it matches and is not already added.
+- Time Complexity: O(n x m)
+- Space Complexity: O(n)
