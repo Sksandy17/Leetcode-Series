@@ -159,3 +159,11 @@
 - Approach: Compare each element of nums1 with nums2 and add it to the result only if it matches and is not already added.
 - Time Complexity: O(n x m)
 - Space Complexity: O(n)
+
+### 21.Maximum Subarray
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Traverse the array once, calculate the maximum subarray sum by keeping a running sum, and update the maximum whenever a larger sum is found.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
