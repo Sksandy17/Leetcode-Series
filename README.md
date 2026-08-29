@@ -167,3 +167,11 @@
 - Approach: Traverse the array once, calculate the maximum subarray sum by keeping a running sum, and update the maximum whenever a larger sum is found.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 22.Majority Element
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Traverse the array using Boyer-Moore Voting Algorithm and maintain a candidate with its count.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
