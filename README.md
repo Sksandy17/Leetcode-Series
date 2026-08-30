@@ -175,3 +175,11 @@
 - Approach: Traverse the array using Boyer-Moore Voting Algorithm and maintain a candidate with its count.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 23.Third Maximum Number
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Sort the array in descending order, remove duplicate elements, and return the third distinct element nums[2]; if it doesn’t exist, return nums[0].
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
