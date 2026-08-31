@@ -183,3 +183,11 @@
 - Approach: Sort the array in descending order, remove duplicate elements, and return the third distinct element nums[2]; if it doesn’t exist, return nums[0].
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
+
+### 24.Find Pivot Index
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Calculate the total sum first, then for each index calculate rightSum = total - leftSum - nums[i] and check whether leftSum == rightSum.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
