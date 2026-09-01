@@ -191,3 +191,11 @@
 - Approach: Calculate the total sum first, then for each index calculate rightSum = total - leftSum - nums[i] and check whether leftSum == rightSum.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 25.Sort Array By Pivot
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Use two pointers to place all even numbers at the beginning and odd numbers at the end by swapping them.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
