@@ -198,4 +198,12 @@
 - Language: Java
 - Approach: Use two pointers to place all even numbers at the beginning and odd numbers at the end by swapping them.
 - Time Complexity: O(n)
+- Space Complexity: O(n)
+
+### 26.Longest Common Prefix
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Take the first string as the prefix and compare it with every string, reducing the prefix until all strings match.
+- Time Complexity: O(n x m)
 - Space Complexity: O(1)
