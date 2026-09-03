@@ -207,3 +207,11 @@
 - Approach: Take the first string as the prefix and compare it with every string, reducing the prefix until all strings match.
 - Time Complexity: O(n x m)
 - Space Complexity: O(1)
+
+### 27.Height Ckecker
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Copy the array, sort it in non-decreasing order, then count the indices where heights[i] != expect[i].
+- Time Complexity: O(n^2)
+- Space Complexity: O(n)
