@@ -215,3 +215,11 @@
 - Approach: Copy the array, sort it in non-decreasing order, then count the indices where heights[i] != expect[i].
 - Time Complexity: O(n^2)
 - Space Complexity: O(n)
+
+### 28.Squares of a Sorted Array
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Square each element, store the squares in a new array, then sort the squared array in ascending order using nested loops.
+- Time Complexity: O(n^2)
+- Space Complexity: O(n)
