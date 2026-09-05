@@ -223,3 +223,11 @@
 - Approach: Square each element, store the squares in a new array, then sort the squared array in ascending order using nested loops.
 - Time Complexity: O(n^2)
 - Space Complexity: O(n)
+
+### 29.Maximum Product Difference Between Two Pairs
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Find the two largest and two smallest elements in one traversal, then return (max1 × max2) − (min1 × min2).
+- Time Complexity: O(n)
+- Space Complexity: O(1)
