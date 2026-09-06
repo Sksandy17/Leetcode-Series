@@ -231,3 +231,11 @@
 - Approach: Find the two largest and two smallest elements in one traversal, then return (max1 × max2) − (min1 × min2).
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 30.Count Items Matching a Rule
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Traverse each item, select the field based on ruleKey, compare it with ruleValue, and increment the count if it matches.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
