@@ -239,3 +239,11 @@
 - Approach: Traverse each item, select the field based on ruleKey, compare it with ruleValue, and increment the count if it matches.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 31.Merge Sorted Array
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Copy all elements of nums2 into the empty positions of nums1, then sort the complete nums1 array using Bubble Sort.
+- Time Complexity: O((m+n)^2)
+- Space Complexity: O(1)
