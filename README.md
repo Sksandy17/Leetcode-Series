@@ -247,3 +247,11 @@
 - Approach: Copy all elements of nums2 into the empty positions of nums1, then sort the complete nums1 array using Bubble Sort.
 - Time Complexity: O((m+n)^2)
 - Space Complexity: O(1)
+
+### 32.Maximize Sum of Array After K Negations
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Find the smallest element in each iteration and negate it, repeating this process k times to maximize the array sum.
+- Time Complexity: O(k x n)
+- Space Complexity: O(1)
