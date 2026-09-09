@@ -255,3 +255,11 @@
 - Approach: Find the smallest element in each iteration and negate it, repeating this process k times to maximize the array sum.
 - Time Complexity: O(k x n)
 - Space Complexity: O(1)
+
+### 33.Find All Numbers Disappeared in an Array
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Use each number as an index and mark its position negative; then add the positions that remain positive as missing numbers.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
