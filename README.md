@@ -263,3 +263,11 @@
 - Approach: Use each number as an index and mark its position negative; then add the positions that remain positive as missing numbers.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 34.Range Sum Query - Immutable
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Prefix sum array create panni, sumRange() la sum[right] - sum[left-1] use panni range sum find pannuvom.
+- Time Complexity: O(n)-initialization, O(1)-each query
+- Space Complexity: O(n)
