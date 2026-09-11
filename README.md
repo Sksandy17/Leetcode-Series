@@ -277,5 +277,5 @@
 - Difficulty Level: Easy
 - Language: Java
 - Approach: Add 4 for each land cell and subtract 2 for every shared side with the top or left cell.
-- Time Complexity: O(row x col)
+- Time Complexity: O(m x n)
 - Space Complexity: O(1)
