@@ -271,3 +271,11 @@
 - Approach: Prefix sum array create panni, sumRange() la sum[right] - sum[left-1] use panni range sum find pannuvom.
 - Time Complexity: O(n)-initialization, O(1)-each query
 - Space Complexity: O(n)
+
+### 35.Island Perimeter
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Add 4 for each land cell and subtract 2 for every shared side with the top or left cell.
+- Time Complexity: O(row x col)
+- Space Complexity: O(1)
