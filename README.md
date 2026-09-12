@@ -279,3 +279,11 @@
 - Approach: Add 4 for each land cell and subtract 2 for every shared side with the top or left cell.
 - Time Complexity: O(m x n)
 - Space Complexity: O(1)
+
+### 36.Next Greater Element I
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: For each nums1 element, find its position in nums2 and scan right to find the first greater element; if none exists, store -1.
+- Time Complexity: O(m x n)
+- Space Complexity: O(m)
