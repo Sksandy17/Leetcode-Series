@@ -287,3 +287,11 @@
 - Approach: For each nums1 element, find its position in nums2 and scan right to find the first greater element; if none exists, store -1.
 - Time Complexity: O(m x n)
 - Space Complexity: O(m)
+
+### 37.Convert Sorted Array to Binary Search Tree
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Choose the middle element as root and recursively build balanced left and right subtrees from the remaining sorted elements.
+- Time ComplexityL O(n)
+- Space Complexity: O(log n)
