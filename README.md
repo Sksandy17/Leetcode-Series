@@ -295,3 +295,11 @@
 - Approach: Choose the middle element as root and recursively build balanced left and right subtrees from the remaining sorted elements.
 - Time ComplexityL O(n)
 - Space Complexity: O(log n)
+
+### 38.3Sum Closest
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Sort the array, fix one element, and use two pointers to find the 3-number sum closest to the target.
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
