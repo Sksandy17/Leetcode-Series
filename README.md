@@ -303,3 +303,11 @@
 - Approach: Sort the array, fix one element, and use two pointers to find the 3-number sum closest to the target.
 - Time Complexity: O(n^2)
 - Space Complexity: O(1)
+
+### 39.Pascal's Triangle
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Generate each row using 1 at the boundaries and calculate middle elements by adding the two adjacent values from the previous row.
+- Time Complexity: O(n^2)
+- Space Complexity: O(n^2)
