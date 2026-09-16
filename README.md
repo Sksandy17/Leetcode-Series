@@ -311,3 +311,11 @@
 - Approach: Generate each row using 1 at the boundaries and calculate middle elements by adding the two adjacent values from the previous row.
 - Time Complexity: O(n^2)
 - Space Complexity: O(n^2)
+
+### 40.Next Permutation
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Find the first decreasing element from the right, swap it with the smallest greater element from the right, then reverse the remaining suffix.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
