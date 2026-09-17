@@ -319,3 +319,11 @@
 - Approach: Find the first decreasing element from the right, swap it with the smallest greater element from the right, then reverse the remaining suffix.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 41.Search in Rotated Sorted Array
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Check which half is sorted using binary search; if the target lies in that sorted half, search there, otherwise search the other half.
+- Time Complexity: O(log n)
+- Space Complexity: O(1)
