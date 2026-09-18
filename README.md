@@ -327,3 +327,11 @@
 - Approach: Check which half is sorted using binary search; if the target lies in that sorted half, search there, otherwise search the other half.
 - Time Complexity: O(log n)
 - Space Complexity: O(1)
+
+### 42.Can Place Flowers
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Traverse the flowerbed and greedily place a flower when the current, left, and right plots are empty, then decrease n until all required flowers are placed.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
