@@ -335,3 +335,11 @@
 - Approach: Traverse the flowerbed and greedily place a flower when the current, left, and right plots are empty, then decrease n until all required flowers are placed.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 43.Product of Array Except Self
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: For each index, multiply the product of all elements before it with the product of all elements after it, using two passes without division.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
