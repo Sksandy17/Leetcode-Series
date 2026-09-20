@@ -343,3 +343,11 @@
 - Approach: For each index, multiply the product of all elements before it with the product of all elements after it, using two passes without division.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### 44.Shuffle an Array
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Copy the original array, then randomly swap elements to create a shuffled array; reset() returns the original array.
+- Time Complexity: O(n)
+- Space Complexity: O(n)
