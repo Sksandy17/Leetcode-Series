@@ -351,3 +351,11 @@
 - Approach: Copy the original array, then randomly swap elements to create a shuffled array; reset() returns the original array.
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### 45.Contains Duplicate II]
+
+- Difficulty Level: Easy
+- Language: Java
+- Approach: Use a HashSet as a sliding window of size k; if the current element already exists, return true.
+- Time Complexity: O(n)
+- Space Complexity: O(k)
