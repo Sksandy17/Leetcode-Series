@@ -359,3 +359,11 @@
 - Approach: Use a HashSet as a sliding window of size k; if the current element already exists, return true.
 - Time Complexity: O(n)
 - Space Complexity: O(k)
+
+### 46.Combination Sum
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Use backtracking — take the current number (reuse allowed) or skip it, until the target becomes 0.
+- Time Complexity: O(2^target)
+- Space Complexity: O(target)
