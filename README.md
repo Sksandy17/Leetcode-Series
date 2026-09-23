@@ -367,3 +367,11 @@
 - Approach: Use backtracking — take the current number (reuse allowed) or skip it, until the target becomes 0.
 - Time Complexity: O(2^target)
 - Space Complexity: O(target)
+
+### 47.Find First and Last Position of Element in Sorted Array
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Apply binary search twice — first search left after finding target to get the first index, then search right to get the last index.
+- Time Complexity: O(log n)
+- Space Complexity: O(1)
