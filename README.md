@@ -375,3 +375,11 @@
 - Approach: Apply binary search twice — first search left after finding target to get the first index, then search right to get the last index.
 - Time Complexity: O(log n)
 - Space Complexity: O(1)
+
+### 48.Search a 2D Matrix
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Treat the 2D matrix as a sorted 1D array and apply Binary Search to find the target efficiently.
+- Time Complexity: O(log(m x n))
+- Space Complexity: O(1)
