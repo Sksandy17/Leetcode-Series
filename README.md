@@ -383,3 +383,11 @@
 - Approach: Treat the 2D matrix as a sorted 1D array and apply Binary Search to find the target efficiently.
 - Time Complexity: O(log(m x n))
 - Space Complexity: O(1)
+
+### 49.Search in Rotated Sorted Array II
+
+- Difficulty Level: Medium
+- Language: Java
+- Approach: Use modified binary search to check the sorted half and search for the target; when duplicates occur, shrink both ends.
+- Time Complexity: O(log n)
+- Space Complexity: O(1)
