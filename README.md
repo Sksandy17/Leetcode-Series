@@ -391,3 +391,11 @@
 - Approach: Use modified binary search to check the sorted half and search for the target; when duplicates occur, shrink both ends.
 - Time Complexity: O(log n)
 - Space Complexity: O(1)
+
+### 50.Find Minimum in Rotated Sorted Array II
+
+- Difficulty Level: Hard
+- Language: Java
+- Approach: Use binary search; compare mid with right to move toward the minimum, and reduce right when duplicates are equal.
+- Time complexity: O(log n)
+- Space Complexity: O(1)
